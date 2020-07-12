@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c7b198"
+    tools:context="MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS APP"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Phone Number"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="282dp"
+        android:layout_height="82dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_marginStart="-50dp"
+        android:layout_marginLeft="-50dp"
+        android:layout_marginTop="17dp"
+        android:hint="Enter SMS"
+        android:textColorHint="@color/colorPrimary" />
+
+
+    <Button
+        android:id="@+id/btnSendSMS"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:text="Send Sms" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="619dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginRight="118dp"
+        android:text="Compose SMS" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="227dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/btnSendSMS"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:text="Opening the sms App\n Click Below"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:ems="10"
+        android:hint="Encryption passowrd"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:text="Cipher Text of message is displayed"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="152dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="281dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+
+        android:text="Cipher Text :"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="690dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginRight="86dp"
+        android:text="Click to view received messages"
+        android:textSize="15dp" />
+
+</RelativeLayout>
